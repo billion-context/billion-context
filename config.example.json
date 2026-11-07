@@ -1,0 +1,17 @@
+{
+  "network": {
+    "upstreamTimeoutMs": 900000
+  },
+  "compress": {
+    "nudgeGrowthTokens": 50000
+  },
+  "persist": {
+    "zstd": true
+  },
+  "sessions": {
+    "gc": {
+      "enabled": true,
+      "maxAgeDays": 14
+    }
+  }
+}
